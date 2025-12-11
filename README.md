@@ -2,7 +2,7 @@
 Pallavi - Responsible AI in Healthcare framework &amp; demo starter
 
 
-## Responsible AI Lifecycle Wheel (Mayo Clinic Platform – Corrected & Complete)
+## Responsible AI Lifecycle Wheel (Inspired from my learnings at Mayo Clinic Platform)
 
 ```mermaid
 pie title Responsible AI Lifecycle Wheel
