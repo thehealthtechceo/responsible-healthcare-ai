@@ -2,14 +2,16 @@
 Pallavi - Responsible AI in Healthcare framework &amp; demo starter
 
 
-## Responsible AI in Healthcare — High-Level Framework
+## Responsible AI Lifecycle Wheel (Mayo Clinic Platform – Corrected & Complete)
 
 ```mermaid
-flowchart TD
-    A[Data Acquisition] --> B[Data Quality & Bias Audits]
-    B --> C[Model Development]
-    C --> D[Risk & Safety Evaluation]
-    D --> E[Clinical Validation]
-    E --> F[Deployment & Monitoring]
-    F --> G[Governance & Continuous Improvement]
+pie title Responsible AI Lifecycle Wheel
+    "1. Data Quality & Bias Audits" : 15
+    "2. Data Governance & Privacy" : 10
+    "3. Model Development" : 15
+    "4. Bias, Equity & Safety Evaluation" : 15
+    "5. Human-in-the-Loop Clinical Validation" : 15
+    "6. Deployment & Integration" : 10
+    "7. Continuous Monitoring & Drift Detection" : 10
+    "8. Post-Market Surveillance & Quality Systems" : 10
 ```
