@@ -1,1 +1,56 @@
 
+# Responsible AI Checklist for Healthcare LLM Systems
+
+This checklist is aligned with:
+- FDA Total Product Lifecycle (TPLC)
+- WHO Ethics & Governance of AI
+- Mayo Clinic Platform safety principles
+- Microsoft Responsible AI Standard
+- NIST AI Risk Management Framework (AI RMF 1.0)
+
+---
+
+## 1. Data Quality & Bias Audits
+- [ ] Dataset profiling completed  
+- [ ] Bias tests across demographics  
+- [ ] Rare disease representation checked  
+- [ ] Missing data strategy documented  
+
+## 2. Data Governance & Privacy
+- [ ] HIPAA/GDPR compliance verified  
+- [ ] PHI removal or minimization applied  
+- [ ] Encryption and access control enabled  
+- [ ] Data provenance documented  
+
+## 3. Model Development
+- [ ] Intended use defined  
+- [ ] Model risk classification (low/moderate/high)  
+- [ ] Model card drafted  
+- [ ] Train/validate/test split documented  
+
+## 4. Bias, Equity & Safety Evaluation
+- [ ] Harm scenario analysis  
+- [ ] Subgroup performance validated  
+- [ ] Safety tests for hallucinations  
+- [ ] Limitation documentation  
+
+## 5. Human-in-the-Loop Clinical Validation
+- [ ] Clinician review workflow  
+- [ ] Override workflow designed  
+- [ ] Clinical evaluation metrics defined  
+- [ ] Decision-support boundaries clarified  
+
+## 6. Deployment & Integration
+- [ ] Workflow integration plan  
+- [ ] Safety guardrails in UI  
+- [ ] Error handling design completed  
+
+## 7. Continuous Monitoring & Drift Detection
+- [ ] Drift detection pipeline  
+- [ ] Monitoring dashboard  
+- [ ] Alerting thresholds  
+
+## 8. Post-Market Surveillance & Quality Systems
+- [ ] QMS documentation maintained  
+- [ ] Incident reporting workflow  
+- [ ] Model update strategy defined
