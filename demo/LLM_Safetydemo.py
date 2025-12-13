@@ -1,7 +1,7 @@
 import os
 
 def safety_guardrails(message):
-    """Basic safety filter for dangerous instructions."""
+    """Demonstrates essential content safety guardrails and disclaimers for non-clinical health LLM applications."""
     unsafe_phrases = ["diagnose me", "prescribe", "doses", "drug amount"]
     for phrase in unsafe_phrases:
         if phrase in message.lower():
