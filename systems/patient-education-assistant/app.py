@@ -29,20 +29,22 @@ def generate_response(user_input: str) -> str:
     print(SYSTEM_DISCLAIMER)
     print("\nType 'exit' to quit.\n")
 
-    while True:
-        user_input = input("You: ")
-        if user_input.lower() in ["exit", "quit"]:
-            break
+   while True:
+    user_input = input("You: ")
+    if user_input.lower() in ["exit", "quit"]:
+        break
 
-        # Optional, user-declared context (not required)
-        demographic = input(
-            "Optional context (e.g., age group: <18, 18-35, 36-50, 51+ or press Enter): "
-        ).strip() or "unknown"
+    demographic = input(
+        "Optional context (e.g., age group: <18, 18-35, 36-50, 51+ or press Enter): "
+    ).strip() or "unknown"
 
-        blocked = violates_policy(user_input)
-        response = generate_response(user_input)
+    blocked = violates_policy(user_input)
+    response = generate_response(user_input)
 
-        # Evaluation hook
-        evaluate_interaction(user_input, blocked, demographic)
+    evaluate_interaction(
+        user_input=user_input,
+        blocked=blocked,
+        demographic=demographic
+    )
 
-        print("\nAI:", response, "\n")
+    print("\nAI:", response, "\n")
