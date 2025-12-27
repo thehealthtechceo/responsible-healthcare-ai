@@ -1,4 +1,4 @@
-# Patient Education Assistant
+# Patient Engagement and Education Tool (patient education only)
 
 The Patient Education Assistant is a non-clinical, patient-facing AI system designed to provide general health education.
 
